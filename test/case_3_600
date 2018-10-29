@@ -1,0 +1,44 @@
+4 0 0 0 400 400 400 400 0
+5
+20
+5
+1.22
+0.5
+1
+600
+15
+4 101 74 87 93 99 119 119 95
+4 179 318 290 329 323 317 284 310
+5 277 176 284 204 330 206 333 164 302 155
+4 265 80 296 79 295 104 265 105
+5 327 31 360 27 380 40 373 53 344 53
+4 146 21 228 23 228 37 147 37
+4 11 48 23 21 45 25 26 43
+3 29 136 41 136 34 210
+4 65 291 75 223 149 162 89 231
+4 188 111 208 111 210 222 189 222
+4 254 250 356 230 358 265 253 269
+3 45 342 87 348 44 365
+4 145 363 212 365 210 381 146 379
+4 323 376 361 338 375 297 374 377
+5 111 308 143 257 206 262 148 277 127 314
+8
+3
+188 333
+259 74
+53 173
+1
+1
+# row 1: Deploy field
+# row 2: dist
+# row 3: SRange
+# row 4: PRange
+# row 5: alpha
+# row 6: beta
+# row 7: threshold (min. detection prob.)
+# row 8: limit_num (limit of deployable sensors)
+# row 9: obstacle_num
+# row 10+obstacle_num: candidate_num
+# row 11+obstacle_num: init_sensor_num
+# row 12+obstacle_num+init_sensor_num: output_coverage
+# row 13+obstacle_num+init_sensor_num: output_graph

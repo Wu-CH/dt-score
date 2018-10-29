@@ -1,0 +1,30 @@
+4 0 0 0 400 400 400 400 0
+5
+20
+5
+1.22
+0.5
+1
+600
+1
+12 101 74 87 93 99 119 119 95 179 318 290 329 323 317 284 310 284 204 330 206 333 164 302 155
+8
+3
+188 333
+259 74
+53 173
+1
+1
+# row 1: Deploy field
+# row 2: dist
+# row 3: SRange
+# row 4: PRange
+# row 5: alpha
+# row 6: beta
+# row 7: threshold (min. detection prob.)
+# row 8: limit_num (limit of deployable sensors)
+# row 9: obstacle_num
+# row 10+obstacle_num: candidate_num
+# row 11+obstacle_num: init_sensor_num
+# row 12+obstacle_num+init_sensor_num: output_coverage
+# row 13+obstacle_num+init_sensor_num: output_graph
