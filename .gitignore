@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+source/DT-Score/dt-score
+source/coverage/coverage

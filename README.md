@@ -8,6 +8,31 @@ DT-Score (Delaunay Triangulation-Score), aims to maximize the coverage of a give
 The DT-Score consists of two phases. In the first phase, we use a contour-based deployment to eliminate the coverage holes near the boundary of sensing area and obstacles. 
 In the second phase, a deployment method based on the Delaunay Triangulation is applied for the uncovered regions.
 
+## Build
+
+```sh
+git clone https://github.com/Wu-CH/dt-score.git
+cd dt-score/source
+make clean
+make all
+```
+
+## Usage
+
+- deployment
+
+```sh
+cd dt-score/test
+../source/DT-Score/dt-score case_1_600
+```
+
+- calculage coverage
+
+```sh
+cd dt-score/test
+../source/coverage/coverage case_1_600_result_DT-Score
+```
+
 ## Citation
 
 ```txt
