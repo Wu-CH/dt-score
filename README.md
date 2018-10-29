@@ -19,14 +19,14 @@ make all
 
 ## Usage
 
-- deployment
+- sensor deployment
 
 ```sh
 cd dt-score/test
 ../source/DT-Score/dt-score case_1_600
 ```
 
-- calculage coverage
+- coverage calculation
 
 ```sh
 cd dt-score/test
