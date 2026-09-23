@@ -4,8 +4,8 @@ DT-Score (Delaunay Triangulation-Score)
 
 ## Introduction
 
-DT-Score (Delaunay Triangulation-Score), aims to maximize the coverage of a given sensing area with obstacles. 
-The DT-Score consists of two phases. In the first phase, we use a contour-based deployment to eliminate the coverage holes near the boundary of sensing area and obstacles. 
+DT-Score (Delaunay Triangulation-Score), aims to maximize the coverage of a given sensing area with obstacles.
+The DT-Score consists of two phases. In the first phase, we use a contour-based deployment to eliminate the coverage holes near the boundary of sensing area and obstacles.
 In the second phase, a deployment method based on the Delaunay Triangulation is applied for the uncovered regions.
 
 ## Build
